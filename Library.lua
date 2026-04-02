@@ -2969,6 +2969,7 @@ function Library:CreateWindow(...)
         ZIndex = 1;
         Parent = ScreenGui;
     });
+    Outer:SetAttribute("OUTR", true)
 
     Library:MakeDraggable(Outer, 25);
 
